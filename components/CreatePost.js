@@ -6,6 +6,7 @@ const CreatePost = () => {
     const [notification, setNotification] = useState('');
     const handleSubmit = (event) => {
         event.preventDefault();
+
         fire.firestore()
             .collection('blog')
             .add({
