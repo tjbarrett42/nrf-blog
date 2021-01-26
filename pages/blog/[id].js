@@ -11,6 +11,7 @@ const Blog = (props) => {
                 <a>Back</a>
             </Link>
         </div>
+
     )
 }
 export const getServerSideProps = async ({ query }) => {
